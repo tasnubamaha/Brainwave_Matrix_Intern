@@ -1,0 +1,36 @@
+body{
+    background-color: #000430;
+}
+
+.container{
+    width: 570px;
+    padding: 30px;
+}
+
+.header{
+   text-align: center;
+   margin-top: 80px;
+   border: 1px solid #828dff;
+   padding: 15px;
+   width: 35%;
+   margin-left: 420px;
+   color: white;
+   border-radius: 10px;
+}
+
+#new_task::placeholder, #task_filter::placeholder{
+    color: white;
+}
+
+#new_task, #task_filter, #clear_task_btn{
+    background-color: #171c48;
+    border: 1px solid #828dff;
+    color: white;
+}
+
+#add{
+    margin-left: 20px;
+    background-color: #171c48;
+    border: 1px solid #828dff;
+    color: white;
+}
